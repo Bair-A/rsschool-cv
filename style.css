@@ -1,0 +1,159 @@
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f5ebb3;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+}
+
+.wrapper{
+    background-color: rgb(242, 231, 243);
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    grid-auto-rows: auto;
+    align-items: center;
+    background: rgb(190, 247, 195);
+    grid-column-gap: 25px;
+
+}
+
+.header-logo, 
+.header-nav-inner{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.header-logo{
+    font-weight: bold;
+    font-size: 40px;
+    color: black;
+    
+    justify-self: center;
+}
+
+.header-nav-inner{
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.header-nav{
+    justify-self: end;
+}
+
+.header-nav:last-child{
+    margin-right: 0;
+}
+
+h1,h2{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h1{
+    margin: 20px auto;
+}
+
+.section-head{
+    margin-top: 20px;
+}
+
+#section-personal-data{
+    background-color: rgb(154, 201, 255);
+    min-height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    grid-column-gap: 25px;
+}
+
+
+.personal-data-inner{
+    justify-self: center;
+    font-family: 'Lato', sans-serif
+}
+
+.photo-personal-data{
+    justify-self: center;
+}
+
+.photo-inner{
+    max-height: 170px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.my-data{
+    font-weight: bold;
+}
+
+.section-head{
+    margin: 50px auto;
+}
+
+#about-me{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 25px;
+    justify-self: center;
+}
+
+.img{
+    border-radius: 100%;
+}
+
+.section-head{
+    grid-column: 1/4;
+}
+
+.about-me-inner{
+    background-color: burlywood;
+    min-height: 100px;
+    text-align: center;
+}
+
+.about-me-inner-container{
+    margin: 20px;
+}
+
+#my-goals{
+    display: grid;
+    grid-template-columns: 1fr 1fr;: 1fr 1fr;  
+}
+
+.goals-list,
+.photo-goal{
+    justify-self: center;
+    align-self: center;
+}
+
+.img-goals{
+    border-radius: 10px;
+}
+
+.experience-container{
+    margin: 20px;
+}
+
+footer{
+    display: grid;
+    
+    background: rgb(190, 247, 195);   
+}
+
+.footer-inner{
+    justify-self: center;
+    align-self: center;
+    margin: 15px;
+}
